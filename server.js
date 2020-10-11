@@ -51,10 +51,10 @@ app.post('/',(req, res) =>{
     
     //res.sendFile(__dirname+'/index.html');
 });
-/*app.listen(5000,()=>{
+app.listen(5000,()=>{
     console.log('Server is running on Port 5000.');
-});*/ 
+}); 
 
-app.listen(process.env.PORT || 3000, function(){
+/*app.listen(process.env.PORT || 3000, function(){
     console.log("Server has started.");
-});
+});*/
